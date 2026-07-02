@@ -223,7 +223,7 @@ def _ar_forecast(vals_n, h, c, Wf, Wi, Wg, Wo, Wy, by, window, n_steps):
     for _ in range(n_steps):
         x = np.array(buf[-window:])
         h, c = _lstm_step(x, h, c, Wf, Wi, Wg, Wo)
-        y = np.clip(float(Wy @ h + by), -0.1, 1.1)
+        y = np.clip((Wy @ h + by).item(), -0.1, 1.1)
         out.append(y); buf.append(y)
     return np.array(out)
 
@@ -288,7 +288,7 @@ def forecast_bilstm_multivariate(pivot_df, target_col, n, window=5, hidden=20, s
         preds = []
         for _ in range(n):
             h, c = _lstm_step(last, h, c, Wf, Wi, Wg, Wo)
-            preds.append(np.clip(float(Wy @ h + by), -0.1, 1.1))
+            preds.append(np.clip((Wy @ h + by).item(), -0.1, 1.1))
         return np.array(preds)
 
     pn = (_run_dir(0) + _run_dir(3)) / 2
