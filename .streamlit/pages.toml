@@ -1,0 +1,24 @@
+[[pages]]
+path = "app.py"
+name = "Beranda"
+icon = "🏠"
+
+[[pages]]
+path = "pages/1_Rekrutmen_&_Industri.py"
+name = "Rekrutmen & Industri"
+icon = "🌐"
+
+[[pages]]
+path = "pages/2_Tren_&_Pola_Pekerjaan.py"
+name = "Tren & Pola Pekerjaan"
+icon = "🧬"
+
+[[pages]]
+path = "pages/3_Kesenjangan_Keahlian.py"
+name = "Kesenjangan Keahlian"
+icon = "🔍"
+
+[[pages]]
+path = "pages/4_Pasar_Kerja_Indonesia.py"
+name = "Pasar Kerja Indonesia"
+icon = "📊"
