@@ -1,0 +1,36 @@
+skill_abr,skill_name,Frekuensi,Tipe
+IT,Information Technology,26137,Teknis & Spesialis
+SALE,Sales,22475,Bisnis & Manajerial
+MGMT,Management,20861,Bisnis & Manajerial
+MNFC,Manufacturing,18185,Teknis & Spesialis
+HCPR,Health Care Provider,17369,Teknis & Spesialis
+BD,Business Development,14290,Bisnis & Manajerial
+ENG,Engineering,13009,Teknis & Spesialis
+OTHR,Other,12608,Bisnis & Manajerial
+FIN,Finance,8540,Bisnis & Manajerial
+MRKT,Marketing,5525,Bisnis & Manajerial
+ACCT,Accounting/Auditing,5461,Bisnis & Manajerial
+ADM,Administrative,4860,Bisnis & Manajerial
+CUST,Customer Service,4292,Bisnis & Manajerial
+PRJM,Project Management,3997,Teknis & Spesialis
+ANLS,Analyst,3858,Teknis & Spesialis
+RSCH,Research,2986,Teknis & Spesialis
+HR,Human Resources,2647,Bisnis & Manajerial
+LGL,Legal,2371,Bisnis & Manajerial
+CNSL,Consulting,2338,Bisnis & Manajerial
+EDU,Education,2290,Bisnis & Manajerial
+DSGN,Design,2244,Teknis & Spesialis
+TRNG,Training,2243,Bisnis & Manajerial
+GENB,General Business,1984,Bisnis & Manajerial
+QA,Quality Assurance,1791,Teknis & Spesialis
+ART,Art/Creative,1664,Teknis & Spesialis
+WRT,Writing/Editing,1443,Teknis & Spesialis
+PRDM,Product Management,1362,Teknis & Spesialis
+PR,Public Relations,1298,Bisnis & Manajerial
+SUPL,Supply Chain,1180,Teknis & Spesialis
+STRA,Strategy/Planning,1178,Bisnis & Manajerial
+SCI,Science,813,Teknis & Spesialis
+PROD,Production,762,Teknis & Spesialis
+ADVR,Advertising,681,Teknis & Spesialis
+PRCH,Purchasing,610,Teknis & Spesialis
+DIST,Distribution,416,Teknis & Spesialis
